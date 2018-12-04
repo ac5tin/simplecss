@@ -90,7 +90,7 @@ h4{
     font-size: 0.8rem;
     border-radius:8px;
     outline: none;
-    min-width: 7rem;
+
 }
 
 
@@ -228,7 +228,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .inline_field > label{
     display: flex;
     align-items: center;
-    padding: 0 1rem 0 0;
+
 }
 
 
@@ -294,6 +294,15 @@ hr{
     flex-wrap:wrap;
     padding: 1rem 0;
 }
+
+[class*="col-"]{
+    display: flex;
+}
+
+[class*="col-"] > *{
+    width: 100%;
+}
+
 
 .col-1{
     width: 10%;
@@ -369,6 +378,16 @@ hr{
     .inline_field > label:nth-child(n+2){
         padding: 0 1rem;
     }
+
+    .inline_field > label{
+        padding: 0 1rem 0 0;
+    }
+
+
+    /* button */
+    .btn{
+        min-width: 7rem;
+    }
 }
 
 /* ===== mobile sizes ===== */
@@ -378,13 +397,23 @@ hr{
         width: 30%;
         line-height: normal;
         max-height: 2rem;
+        padding: 0;
     }
     .inline_field > label:nth-child(n+2),.inline_field > input:nth-child(n+3),.inline_field > *:nth-child(n+3){
         margin-top: 1rem;
     }
 
 
+    .inline_field > label ~ *:not(label) ,form textarea{
+        max-width: 6.6rem;
+        width: auto;
+    }
 
+
+    /* button */
+    .btn{
+        min-width: 6rem;
+    }
 
 
 
