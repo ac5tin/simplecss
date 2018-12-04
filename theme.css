@@ -41,3 +41,7 @@ body.dark .card:hover{
 body.dark input:focus,body.dark textarea:focus,body.dark select:focus{
     border-color: #7a7a7a;
 }
+
+body.dark .code{
+    box-shadow: 8px 7px 16px #191919;
+}
