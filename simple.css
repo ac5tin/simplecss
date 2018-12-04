@@ -1,4 +1,12 @@
 @import url('https://rsms.me/inter/inter-ui.css');
+@font-face{
+    font-family: 'mononoki';
+    src: url('https://cdn.jsdelivr.net/npm/@typopro/web-mononoki@3.7.5/TypoPRO-Mononoki-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body{
     text-rendering: optimizeLegibility;
