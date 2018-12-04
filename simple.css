@@ -341,6 +341,10 @@ hr{
 
 
     /* grid */
+    [class*="col-"]{
+        margin-top: 1rem;
+    }
+
     .col-1{
         width: 20%;
     }

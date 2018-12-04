@@ -511,7 +511,11 @@
     padding: 5rem;
 }
 
-
+@media screen and (max-width: 768px){
+    .p-0-m{
+        padding:0;
+    }
+}
 
 
 /* code */
@@ -520,6 +524,21 @@
     color: white;
     background-color: #515151;
     overflow:auto;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+
+/* colours */
+.bg-white{
+    background-color: white;
+}
+.bg-grey0{
+    background-color: #f3f3f3;
+}
+
+.bg-grey1{
+    background-color: #eee;
 }
 
 
