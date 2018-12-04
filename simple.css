@@ -68,7 +68,9 @@ h4{
     font-weight: 600;
 }
 
-
+.subtitle{
+    font-weight: 500;
+}
 
 
 
@@ -237,6 +239,22 @@ select{
 form > *{
     display: block;
 }
+
+
+/* list */
+ul{
+    list-style-type: none;
+    padding: 0 0 0 1rem;
+}
+ul li{
+    text-indent: -5px;
+}
+ul li:before{
+    content: "- ";
+    text-indent: -5px;
+}
+
+
 
 
 /* misc */

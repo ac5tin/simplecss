@@ -188,10 +188,69 @@
         </pre>
       </div>
 
+      <div class="section">
+        <h2 class="title">Grid System</h2>
+        <p>Extremely minimal grid system with 10 columns per row</p>
+        <p>From .col-1 to .col-10 </p>
+
+        <div class="row">
+          <div class="col-2">
+            <div class="p-1 bg-grey1 b-black border round less-round border-thin text-center">
+              <p>.col-2</p>
+            </div>
+          </div>
+          <div class="col-3">
+              <div class="p-1 bg-grey1 b-black border round less-round border-thin text-center">
+                <p>.col-3</p>
+              </div>
+          </div>
+
+          <div class="col-5">
+              <div class="p-1 bg-grey1 b-black border round less-round border-thin text-center">
+                <p>.col-5</p>
+              </div>
+          </div>
+        </div>
+
+        <h3 class="subtitle">Mobile only columns</h3>
+        <p>To specify mobile sizes, use .col-*-m</p>
+        <div class="row">
+          <div class="col-8 col-5-m">
+              <div class="p-1 bg-grey1 b-black border round less-round border-thin text-center">
+                <p>.col-8 .col-5-m</p>
+              </div>
+          </div>
+
+          <div class="col-2 col-5-m">
+              <div class="p-1 bg-grey1 b-black border round less-round border-thin text-center">
+                <p>.col-2 .col-5-m</p>
+              </div>
+          </div>
+        </div>
+
+        <h3 class="subtitle">Fixed column width on mobile / desktop size</h3>
+        <p>To force width to be the same on all sizes, use .col-*-stay</p>
+        <div class="row">
+          <div class="col-4-stay">
+              <div class="p-1 bg-grey1 b-black border round less-round border-thin text-center">
+                <p>.col-4-stay</p>
+              </div>
+          </div>
+
+
+          <div class="col-6-stay">
+              <div class="p-1 bg-grey1 b-black border round less-round border-thin text-center">
+                <p>.col-6-stay</p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
       <hr />
       <h1>Other Useful Utilities</h1>
       <div class="section">
-        <h2>Code</h2>
+        <h2 class="title">Code</h2>
         <p>Enter code inside the code tag</p>
         <pre class="code">
           <code>
@@ -204,7 +263,7 @@
 
 
       <div class="section">
-        <h2>Themes</h2>
+        <h2 class="title">Themes</h2>
         <p>Attach the theme name to the body element to apply theme.</p>
         <p>Current Available Additional Themes</p>
         <ul>
@@ -215,6 +274,27 @@
     &#x3C;body class=&#x22;dark&#x22;&#x3E;&#x3C;/body&#x3E;
           </code>
         </pre>
+      </div>
+
+
+      <div class="section">
+        <h2 class="title">mHide and mShow</h2>
+        <p>.mHide hides content on mobile</p>
+        <p>.Show shows content on mobile</p>
+
+        <p class="mHide p-1 bg-grey1 border b-black">This line is hidden on mobile</p>
+        <p class="mShow p-1 bg-grey2 t-white border b-black">This line is only visible on mobile</p>
+      </div>
+
+      
+      <div class="section">
+        <h2 class="title">Centering</h2>
+        <p>3 types of centering</p>
+        <ul>
+          <li>.center : centers block elements in most cases</li>
+          <li>.text-center : text align center</li>
+          <li>.flex-center : uses flex to center elements</li>
+        </ul>
       </div>
       
     </div>
