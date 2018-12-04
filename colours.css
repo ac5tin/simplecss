@@ -1,0 +1,74 @@
+/* --- colours --- */
+.bg-white{
+    background-color: white;
+}
+.border.b-white{
+    border: 3px solid white;
+}
+.t-white{
+    color: white;
+}
+
+
+
+.bg-grey0{
+    background-color: #f3f3f3;
+}
+.border.b-grey0{
+    border: 3px solid #f3f3f3;
+}
+.t-grey0{
+    color: #f3f3f3;
+}
+
+
+
+.bg-grey1{
+    background-color: #eee;
+}
+.border.b-grey1{
+    border: 3px solid #eee;
+}
+.t-grey1{
+    color: #eee;
+}
+
+
+
+
+.bg-grey2{
+    background-color: #9c9c9c;
+}
+.border.b-grey2{
+    border: 3px solid #9c9c9c;
+}
+.t-grey2{
+    color: #9c9c9c;
+}
+
+
+.bg-grey3{
+    background-color: #5c5c5c;
+}
+.border.b-grey3{
+    border: 3px solid #5c5c5c;
+}
+.t-grey3{
+    color: #5c5c5c;
+}
+
+
+
+
+
+
+
+.bg-black{
+    background-color: black;
+}
+.border.b-black{
+    border: 3px solid black;
+}
+.t-black{
+    color: black;
+}

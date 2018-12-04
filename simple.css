@@ -92,6 +92,12 @@ h4{
     outline: none;
     min-width: 7rem;
 }
+
+
+.btn::-moz-focus-inner{
+    border:0;
+}
+
 .btn:hover{
     opacity: 0.6;
 }
@@ -253,6 +259,7 @@ ul{
 }
 ul li{
     text-indent: -5px;
+    padding: 0.5rem 0;
 }
 ul li:before{
     content: "- ";
@@ -268,6 +275,16 @@ hr{
     border: 1px solid #b9b9b9;
     margin: 2rem 0;
 }
+
+.inline{
+    display: inline;
+}
+.inline-block{
+    display:inline-block;
+}
+
+
+
 
 
 /* simple 10 columns grid system */
