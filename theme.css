@@ -1,0 +1,43 @@
+/* dark */
+body.dark{
+    color: white;
+    background-color: #353535;
+}
+body.dark .card{
+    border-color: #515151;
+}
+body.dark .card-header{
+    background-color: #2d2d2d;
+    border-color: #515151;
+}
+body.dark input,body.dark textarea,body.dark select{
+    border-color: #515151;
+    background-color: black;
+    color:white;
+}
+
+body.dark input[type=date]{
+    filter: invert(100%);
+    background-color: white;
+    color: black;
+    border-color: #AEAEAE;
+}
+body.dark input[type=date]:hover{
+    box-shadow: 1px 1px 3px 1px #E8E8E8;
+}
+
+
+
+body.dark input:hover,body.dark textarea:hover,body.dark select:hover{
+    box-shadow: 1px 1px 3px 1px #171717;
+}
+
+
+
+body.dark .card:hover{
+    box-shadow:1px 1px 3px 1px #171717;
+}
+
+body.dark input:focus,body.dark textarea:focus,body.dark select:focus{
+    border-color: #7a7a7a;
+}

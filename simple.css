@@ -1,0 +1,412 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+body{
+    text-rendering: optimizeLegibility;
+    font-size: 15px;
+    color:black;
+}
+
+/* font */
+body,input,textarea{
+    font-family: -apple-system, BlinkMacSystemFont,'Inter UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::selection{
+    background: #5ffafb;
+}
+::-moz-selection {
+    background: #5ffafb;
+}
+
+/* container and sections */
+.container{
+    margin: 1rem 2rem;
+}
+
+
+.section{
+    margin: 1rem 0;
+}
+
+.block{
+    display: block;
+}
+
+
+.full_width{
+    width: 100%;
+}
+
+
+/* text */
+h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.title{
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* - buttons - */
+.btn{
+    cursor: pointer;
+    padding: 1rem;
+    letter-spacing: 0.06rem;
+    background-color: white;
+    border: solid;
+    font-size: 0.8rem;
+    border-radius:8px;
+    outline: none;
+    min-width: 7rem;
+}
+.btn:hover{
+    opacity: 0.6;
+}
+
+
+
+
+
+.btn.btn-primary{
+    background-color: #49a7f5;
+    border: solid #a3e2e6;
+}
+.btn.btn-primary:hover{
+    border-color: #49a7f5;
+    background-color: #5960ff;
+    color: white;
+    opacity: 1;
+    box-shadow: 1px 1px 8px 1px #3ff3ff;
+}
+
+
+
+.btn.btn-warning{
+    background-color: #e2c72a;
+    border: solid #f6fa29;
+}
+.btn.btn-warning:hover{
+    border-color: #f6fa29;
+    background-color: #e2c72a;
+    color: white;
+    opacity: 1;
+    box-shadow: 1px 1px 8px 1px #fcfa7b;
+}
+
+
+
+.btn.btn-success{
+    background-color: #03c433;
+    border: solid #5af589;
+}
+.btn.btn-success:hover{
+    border-color: #5af589;
+    background-color: #03c433;
+    color: white;
+    opacity: 1;
+    box-shadow: 1px 1px 8px 1px #92f5a0;
+}
+
+
+
+
+
+.btn.btn-danger{
+    background-color: #ec4f4f;
+    border: solid #fa7171;
+}
+.btn.btn-danger:hover{
+    border-color: #fa7171;
+    background-color: #ec4f4f;
+    color: white;
+    opacity: 1;
+    box-shadow: 1px 1px 8px 1px #ffa8be;
+}
+
+
+/* card */
+.card{
+    padding: 1rem;
+    border: 3px solid #b9b9b9;
+    border-radius: 8px;
+}
+.card:hover{
+    box-shadow:1px 1px 3px 1px #d0d0d0;
+}
+
+.card > .card-header{
+    margin: -1rem;
+    background-color: #e6e6e6;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 3px solid #b9b9b9;
+}
+.card > .card-header > .title{
+    margin: 0;
+}
+
+.card > .card-body{
+    padding: 1rem;
+}
+
+
+
+/* form */
+input,textarea,select{
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 3px solid #b9b9b9;
+    outline:none;
+}
+input:hover,textarea:hover,select:hover{
+    box-shadow: 1px 1px 3px 1px #d0d0d0;
+}
+input:focus,textarea:focus,select:focus{
+    border-color: #d0d0d0;
+}
+
+
+
+input[type="date"] {
+    padding: 0.5rem 0 0.5rem 1rem;
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+
+
+.inline_field{
+    display:flex;
+    line-height: 0.2rem;
+    flex-wrap: wrap;
+}
+
+.inline_field > label{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 0 0;
+}
+
+
+
+.field > label > h4{
+    margin: 0.5rem 0;
+}
+
+
+.field > label:first-child > h4{
+    margin: 1rem 0 0.5rem 0;
+}
+
+
+select{
+    min-width: 10rem;
+}
+
+form > *{
+    display: block;
+}
+
+
+/* misc */
+hr{
+    outline: 0;
+    border: 1px solid #b9b9b9;
+    margin: 2rem 0;
+}
+
+
+/* simple 10 columns grid system */
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap;
+}
+
+.col-1{
+    width: 10%;
+}
+.col-2{
+    width: 20%;
+}
+.col-3{
+    width: 30%;
+}
+.col-4{
+    width: 40%;
+}
+.col-5{
+    width: 50%;
+}
+.col-6{
+    width: 60%;
+}
+.col-7{
+    width: 70%;
+}
+.col-8{
+    width: 80%;
+}
+.col-9{
+    width:90%;
+}
+.col-10{
+    width: 100%;
+}
+
+/* - fixed width - */
+.col-1-stay{
+    width: 10%;
+}
+.col-2-stay{
+    width: 20%;
+}
+.col-3-stay{
+    width: 30%;
+}
+.col-4-stay{
+    width: 40%;
+}
+.col-5-stay{
+    width: 50%;
+}
+.col-6-stay{
+    width: 60%;
+}
+.col-7-stay{
+    width: 70%;
+}
+.col-8-stay{
+    width: 80%;
+}
+.col-9-stay{
+    width:90%;
+}
+.col-10-stay{
+    width: 100%;
+}
+
+
+
+
+/* ========== MOBILE RESPONSIVE ========== */
+
+/* ===== non mobile ===== */
+@media screen and (min-width: 769px){
+    /* form */
+    .inline_field > label:nth-child(n+2){
+        padding: 0 1rem;
+    }
+}
+
+/* ===== mobile sizes ===== */
+@media screen and (max-width: 768px){
+    /* form */
+    .inline_field > label{
+        width: 30%;
+        line-height: normal;
+        max-height: 2rem;
+    }
+    .inline_field > label:nth-child(n+2),.inline_field > input:nth-child(n+3),.inline_field > *:nth-child(n+3){
+        margin-top: 1rem;
+    }
+
+
+
+
+
+
+
+    /* grid */
+    .col-1{
+        width: 20%;
+    }
+    .col-2{
+        width: 40%;
+    }
+    .col-3{
+        width: 60%;
+    }
+    .col-4{
+        width: 80%;
+    }
+    .col-5{
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .col-7{
+        width: 100%;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .col-9{
+        width:100%;
+    }
+
+
+    /* mobile only column sizes */
+    .col-1-m{
+        width: 10%;
+    }
+    .col-2-m{
+        width: 20%;
+    }
+    .col-3-m{
+        width: 30%;
+    }
+    .col-4-m{
+        width: 40%;
+    }
+    .col-5-m{
+        width: 50%;
+    }
+    .col-6-m{
+        width: 60%;
+    }
+    .col-7-m{
+        width: 70%;
+    }
+    .col-8-m{
+        width: 80%;
+    }
+    .col-9-m{
+        width:90%;
+    }
+    .col-10-m{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
