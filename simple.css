@@ -326,7 +326,7 @@ hr{
     padding: 1rem 0;
 }
 
-[class*="col-"]{
+.row:not(.eqw) [class*="col-"]{
     display: flex;
 }
 
@@ -401,6 +401,8 @@ hr{
 
 
 
+
+
 /* ========== MOBILE RESPONSIVE ========== */
 
 /* ===== non mobile ===== */
@@ -419,6 +421,12 @@ hr{
     .btn{
         min-width: 7rem;
     }
+	
+	
+	/** equal column widths inside row */
+	.row.eqw .col{
+		flex: 1;
+	}
 }
 
 /* ===== mobile sizes ===== */
