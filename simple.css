@@ -37,8 +37,8 @@ body,input,textarea,button,select{
     margin: 3rem 0;
 }
 
-.section.header,.header{
-    margin: 1rem 0 3rem 0;
+.section.header:first-of-type,.header{
+    margin: 5rem 0 3rem 0;
 }
 
 
