@@ -298,6 +298,24 @@ nav.navbar > .nav-right > .nav-item{
 
 
 
+/* table */
+table{
+	border-collapse: collapse;
+}
+table th{
+	min-width: 6rem;
+}
+table tbody{
+	text-align: center;
+}
+table td{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	line-height: 2rem;
+}
+
+
+
 
 
 /* misc */

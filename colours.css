@@ -1,4 +1,5 @@
 /* --- colours --- */
+
 .bg-white{
     background-color: white;
 }
@@ -8,6 +9,10 @@
 .t-white{
     color: white;
 }
+
+
+
+
 
 
 
@@ -71,4 +76,16 @@
 }
 .t-black{
     color: black;
+}
+
+
+/* turqoise */
+.bg-tq0{
+	background-color: #82d0d6;
+}
+.border.b-tq0{
+	border: 3px solid #82d0d6;
+}
+.t-tq0{
+	color: #82d0d6;
 }
