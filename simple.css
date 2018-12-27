@@ -313,7 +313,9 @@ table td{
 	border-bottom-width: 1px;
 	line-height: 2rem;
 }
-
+table.gridlines tbody tr td:not(:last-child){
+	border-right: solid 1px;
+}
 
 
 
@@ -342,6 +344,7 @@ hr{
     width: 100%;
     flex-wrap:wrap;
     padding: 1rem 0;
+	margin: 1rem 0;
 }
 
 .row:not(.eqw) [class*="col-"]{
