@@ -27,6 +27,11 @@ body,input,textarea,button,select{
     background: #5ffafb;
 }
 
+a {
+	cursor:pointer;
+}
+
+
 /* container and sections */
 .container{
     margin: 1rem 2rem;
