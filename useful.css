@@ -28,7 +28,23 @@
     display: flex;
     justify-content: center;
     align-content: center;
+	flex-wrap: wrap;
 }
+
+.flex-center-h{
+	display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+
+.flex-center-v{
+    display: flex;
+    align-content: center;
+	flex-wrap: wrap;
+}
+
+
+
 
 /* sharp corners */
 .sharp_corners,.sharp_corners *{
