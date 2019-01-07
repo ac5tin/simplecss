@@ -53,6 +53,11 @@
 	flex-wrap: wrap;
 }
 
+.left{
+	margin-right: auto;
+}
+
+
 /* -- righting contents -- */
 .flex-right{
 	display: flex;
@@ -61,6 +66,9 @@
 	flex-wrap: wrap;
 }
 
+.right{
+	margin-left: auto;
+}
 
 
 /* sharp corners */
