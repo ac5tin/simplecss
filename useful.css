@@ -613,3 +613,13 @@
 .border.border-thin{
     border-width:1px;
 }
+
+
+
+/* button sizes */
+.btn.small{
+	padding: 0.5rem;
+}
+.btn.tiny{
+	padding: 0.2rem;
+}
