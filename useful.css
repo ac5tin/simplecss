@@ -45,6 +45,23 @@
 
 
 
+/* -- lefting contents -- */
+.flex-left{
+	display: flex;
+    justify-content: flex-start;
+    align-content: center;
+	flex-wrap: wrap;
+}
+
+/* -- righting contents -- */
+.flex-right{
+	display: flex;
+    justify-content: flex-end;
+    align-content: center;
+	flex-wrap: wrap;
+}
+
+
 
 /* sharp corners */
 .sharp_corners,.sharp_corners *{
