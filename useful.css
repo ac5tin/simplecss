@@ -54,6 +54,7 @@
 }
 
 .left{
+	float:left;
 	margin-right: auto;
 }
 
@@ -67,6 +68,7 @@
 }
 
 .right{
+	float:right;
 	margin-left: auto;
 }
 
